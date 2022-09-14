@@ -106,7 +106,7 @@ var mudarNomeBotao = document.getElementById('mudar_nome_btn');
 var nomeNovoInput = document.getElementById('nome_input');
 var sacarGranaBotao = document.getElementById('sacar_grana_btn');
 var addressBotao = document.getElementById('address_btn');
-var account = await conectar();
+let account = conectar();
 
 async function conectar(){
     if(ethereum){
@@ -223,7 +223,7 @@ conectarBotao.addEventListener('click', ()=>{
 lerNomeBotao.addEventListener('click', ()=>{
     lerNome().then((response)=> {
         infosParagrafo.innerHTML = `O nome do contrato é: ${response}`
-    
+
     }).catch((err)=>{
         console.log(err);
     });
@@ -247,7 +247,7 @@ lerDonoBotao.addEventListener('click', ()=>{
         {
             infosParagrafo.innerHTML = `O dono do contrato é: <em>${responseString}</em>`;
         }
-    
+
     }).catch((err)=>{
         console.log(err);
     });
