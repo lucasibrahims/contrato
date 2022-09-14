@@ -106,6 +106,7 @@ var mudarNomeBotao = document.getElementById('mudar_nome_btn');
 var nomeNovoInput = document.getElementById('nome_input');
 var sacarGranaBotao = document.getElementById('sacar_grana_btn');
 var addressBotao = document.getElementById('address_btn');
+var account = await conectar();
 
 
 async function conectar(){
@@ -237,13 +238,15 @@ lerPrecoBotao.addEventListener('click', ()=>{
 });
 lerDonoBotao.addEventListener('click', ()=>{
     lerDono().then((response)=>{
-        if((toString(account).toUpperCase)==(toString(response).toUpperCase))  
+        let accountString = account.toString().toLowerCase();
+        let responseString = response.toString().toLowerCase();
+        if(accountString === responseString)  
         {
-            infosParagrafo.innerHTML = `Eu sou o dono ${response}/${account}`;
+            infosParagrafo.innerHTML = `Eu sou o dono!`;
         }
         else 
         {
-            infosParagrafo.innerHTML = `O dono do contrato é: <em>${response}/${account}</em>`;
+            infosParagrafo.innerHTML = `O dono do contrato é: <em>${responseString}</em>`;
         }
     
     }).catch((err)=>{
