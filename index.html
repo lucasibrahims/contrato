@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <header><h1>Contrato Inteligente 2nd Market</h1></header>
+
+    <div class="flex-items1">
+        <button id="conectar_btn">Conectar Carteira</button>
+    </div>
+
+
+    <div class="flex-items1">
+        <button id="nome_btn", class="not_payable">Ver Nome</button>
+        <button id="preco_btn", class="not_payable">Ver Preco</button>
+        <button id="dono_btn", class="not_payable">Ver Dono</button>
+        <button id="address_btn", class="not_payable">Endereço do Contrato</button>
+    </div>
+
+
+    <div class="flex-items1">
+        <button id="mudar_preco_btn", class="payable"> Mudar Preço</button>
+        <input type="number", placeholder="Digite o novo preco:", min="0", step="0.01", id="preco_input">
+        <button id="mudar_nome_btn" class="payable"> Mudar Nome</button>
+        <input type="text", placeholder="Digite o novo nome:", id="nome_input">
+    </div>
+    
+    <div class="flex-items1">
+        <button id="sacar_grana_btn">Sacar Grana</button>
+    </div>
+    
+    <div class = "flex-itens1">
+        <p id="infos"><strong>As informações vão aparecer aqui!</strong></p>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.5/web3.min.js"
+        integrity="sha512-/T7YwzOsNeoNkuTfYKXn3CrJCGc5cnC8T4QW46Hy+3Xjdjrxzokmbx8M8Xavjq1K7dN4958kIRGy4J03VRIlSg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

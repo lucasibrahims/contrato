@@ -1,0 +1,137 @@
+.flex-items1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: normal;
+    align-content: normal;
+}
+header {
+    font-family: helvetica;
+    font-weight: bold;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px #000000;
+    text-align: center;
+    box-shadow: 3px 3px 8px #000000;
+    padding: 16px 14px;
+    border-radius: 40px;
+    border: 2px double #000000;
+    background: #8888;
+    background: linear-gradient(to top, #8888, #CCCC);
+    margin: 20px;
+}
+
+input {
+    font-family: helvetica;
+    font-weight: bold;
+    color: #000000 !important;
+    font-size: 20px;
+    box-shadow: 3px 3px 8px #000000;
+    padding: 16px 14px;
+    text-align: center;
+    justify-content: center;
+}
+#infos {
+    font-family: helvetica;
+    font-weight: bold;
+    color: #FFFFFF !important;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px #000000;
+    box-shadow: 3px 3px 8px #000000;
+    padding: 16px 14px;
+    border-radius: 40px;
+    border: 2px double #000000;
+    background: #770000;
+    background: linear-gradient(to top, #770000, #da0000);
+    margin: 20px;
+    text-align: center;
+
+}
+
+#conectar_btn {
+    align-content: center;
+  font-family: helvetica;
+  font-weight: bold;
+  color: #FFFFFF !important;
+  font-size: 20px;
+  text-shadow: 2px 2px 3px #000000;
+  box-shadow: 3px 3px 8px #000000;
+  padding: 16px 14px;
+  border-radius: 40px;
+  border: 2px double #000000;
+  background: #af1fa8;
+  background: linear-gradient(to top, #af1fa8, #ff00ea);
+  margin: 20px;
+
+}
+#conectar_btn:hover {
+  color: #FFFFFF !important;
+  background: #8d678b;
+  background: linear-gradient(to top, #8d678b, #ffbffc);
+  margin: 20px;
+}
+.not_payable {
+    font-family: helvetica;
+    font-weight: bold;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px #000000;
+    box-shadow: 3px 3px 8px #000000;
+    padding: 16px 14px;
+    border-radius: 40px;
+    border: 2px double #000000;
+    background: #00398f;
+    background: linear-gradient(to top, #00398f, #00bfd8);
+    margin: 20px;
+}
+.not_payable:hover {
+  color: #FFFFFF !important;
+  background: #565faf;
+  background: linear-gradient(to top, #565faf, #88d9f1);
+  margin: 20px;
+}
+
+.payable {
+    font-family: helvetica;
+    font-weight: bold;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px #000000;
+    box-shadow: 3px 3px 8px #000000;
+    padding: 16px 14px;
+    border-radius: 40px;
+    border: 2px double #000000;
+    background: #ff8800;
+    background: linear-gradient(to top, #ff8800, #ffdd7f);
+    margin: 20px;
+}
+
+.payable:hover{
+    color: #FFFFFF !important;
+    background: #ffc086;
+    background: linear-gradient(to top, #ffc086, #eff188)
+
+}
+
+#sacar_grana_btn {
+    font-family: helvetica;
+    font-weight: bold;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px #000000;
+    box-shadow: 3px 3px 8px #000000;
+    padding: 16px 14px;
+    border-radius: 40px;
+    border: 2px double #000000;
+    background: #007714;
+    background: linear-gradient(to top, #007714, #07da00);
+    margin: 20px;
+}
+
+#sacar_grana_btn:hover{
+    color: #FFFFFF !important;
+    background: #4f794a;
+    background: linear-gradient(to top, #4f794a, #88f188)
+
+}
