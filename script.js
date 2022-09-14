@@ -108,7 +108,6 @@ var sacarGranaBotao = document.getElementById('sacar_grana_btn');
 var addressBotao = document.getElementById('address_btn');
 var account = await conectar();
 
-
 async function conectar(){
     if(ethereum){
         try{
